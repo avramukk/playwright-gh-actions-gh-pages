@@ -7,7 +7,7 @@ test('should succeed', async ({ page }) => {
 });
 
 test('should fail', async ({ page }) => {
-  await expect(page).not.toHaveTitle(/Playwright/);
+  await expect(page).not.toHaveTitle(/PlaywrightTEST/);
 });
 
 test('should be flaky', async ({ page }) => {
